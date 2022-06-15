@@ -48,6 +48,9 @@ public class SignInPage {
 	@FindBy(xpath = "/html/body/div[1]/div[2]/div/p[3]")
 	private WebElement pesanErrorPasswordKosong;
 	
+	@FindBy(xpath = "//a[normalize-space()='I forgot my password.']")
+	private WebElement btnLupaPassword;
+	
 	//using factory
 	public Dashboard loginValidUser(String username, String user_password) {
 		email.clear();
@@ -69,13 +72,18 @@ public class SignInPage {
 		return pesanErrorPassword.getText();
 	}
 	
-	public String emailPasswordKosongAtauSalahSatu(String email) {
-		this.email.clear();
-		this.email.sendKeys(email);
-		this.password.clear();
+	
+	public String emailPasswordKosong() {
+		email.clear();
+		password.clear();
 		btnSubmit.click();
 		
 		return pesanErrorUsernameKosong.getText()+pesanErrorPasswordKosong.getText();
+	}
+	
+	public LupaPassword lupaPassword() {
+		btnLupaPassword.click();
+		return PageFactory.initElements(driver, LupaPassword.class);
 	}
 	
 	

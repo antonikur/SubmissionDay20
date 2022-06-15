@@ -80,13 +80,14 @@ public class TestLoginUser {
   
   @Test(priority = 3)
   public void emailKosongPasswordKosong() {
-	  String pesanError = PageFactory.initElements(driver, HomePage.class).clickSignIn().emailPasswordKosongAtauSalahSatu("");
+	  String pesanError = PageFactory.initElements(driver, HomePage.class).clickSignIn().emailPasswordKosong();
 	  assertEquals(pesanError, "The Username field is required.The Password field is required.");
   }
   @Test(priority = 4)
-  public void emailIsiPasswordKosong() {
-	  String pesanError = PageFactory.initElements(driver, HomePage.class).clickSignIn().emailPasswordKosongAtauSalahSatu("antoni.nexsoft@gmail.com");
-	  assertEquals(pesanError, "The Password field is required.");
+  public void masukHalamanLupaPassword() {
+	  String pesanError = PageFactory.initElements(driver, HomePage.class).clickSignIn().lupaPassword().inputEmailCaptchaAndClickResetToSeeError("antoni.nexsoft@gmail.com", "abcd");
+	  
+	  assertEquals(pesanError, "You must submit Captcha word that appears in the image.");
   }
   
 }

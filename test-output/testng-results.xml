@@ -2,55 +2,55 @@
 <testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-15T20:21:17 WIB" name="SuiteTest" finished-at="2022-06-15T20:21:29 WIB" duration-ms="11209">
+  <suite started-at="2022-06-15T21:32:53 WIB" name="SuiteTest" finished-at="2022-06-15T21:33:08 WIB" duration-ms="14973">
     <groups>
     </groups>
-    <test started-at="2022-06-15T20:21:17 WIB" name="User Authentication" finished-at="2022-06-15T20:21:29 WIB" duration-ms="11209">
+    <test started-at="2022-06-15T21:32:53 WIB" name="User Authentication" finished-at="2022-06-15T21:33:08 WIB" duration-ms="14973">
       <class name="com.nexsoft.cicool.TestLoginUser">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:18 WIB" name="init" finished-at="2022-06-15T20:21:20 WIB" duration-ms="2877" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:32:53 WIB" name="init" finished-at="2022-06-15T21:32:57 WIB" duration-ms="3535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:20 WIB" name="cekSession" finished-at="2022-06-15T20:21:21 WIB" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:32:57 WIB" name="cekSession" finished-at="2022-06-15T21:32:58 WIB" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="loginValid()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:21 WIB" name="loginValid" finished-at="2022-06-15T20:21:23 WIB" duration-ms="2469" status="PASS">
+        <test-method signature="loginValid()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:32:58 WIB" name="loginValid" finished-at="2022-06-15T21:33:01 WIB" duration-ms="3393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValid -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:23 WIB" name="cekSession" finished-at="2022-06-15T20:21:24 WIB" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:33:01 WIB" name="cekSession" finished-at="2022-06-15T21:33:01 WIB" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="emailValidPasswordError()[pri:1, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:24 WIB" name="emailValidPasswordError" finished-at="2022-06-15T20:21:25 WIB" duration-ms="978" status="PASS">
+        <test-method signature="emailValidPasswordError()[pri:1, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:33:01 WIB" name="emailValidPasswordError" finished-at="2022-06-15T21:33:03 WIB" duration-ms="1383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailValidPasswordError -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:25 WIB" name="cekSession" finished-at="2022-06-15T20:21:25 WIB" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:33:03 WIB" name="cekSession" finished-at="2022-06-15T21:33:03 WIB" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="emailErrorPasswordError()[pri:2, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:25 WIB" name="emailErrorPasswordError" finished-at="2022-06-15T20:21:26 WIB" duration-ms="929" status="PASS">
+        <test-method signature="emailErrorPasswordError()[pri:2, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:33:03 WIB" name="emailErrorPasswordError" finished-at="2022-06-15T21:33:05 WIB" duration-ms="1319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailErrorPasswordError -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:26 WIB" name="cekSession" finished-at="2022-06-15T20:21:26 WIB" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:33:05 WIB" name="cekSession" finished-at="2022-06-15T21:33:05 WIB" duration-ms="465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="emailKosongPasswordKosong()[pri:3, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:26 WIB" name="emailKosongPasswordKosong" finished-at="2022-06-15T20:21:27 WIB" duration-ms="929" status="PASS">
+        <test-method signature="emailKosongPasswordKosong()[pri:3, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:33:05 WIB" name="emailKosongPasswordKosong" finished-at="2022-06-15T21:33:06 WIB" duration-ms="1091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailKosongPasswordKosong -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:27 WIB" name="cekSession" finished-at="2022-06-15T20:21:27 WIB" duration-ms="401" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:33:06 WIB" name="cekSession" finished-at="2022-06-15T21:33:07 WIB" duration-ms="425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="emailIsiPasswordKosong()[pri:4, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T20:21:27 WIB" name="emailIsiPasswordKosong" finished-at="2022-06-15T20:21:29 WIB" duration-ms="1243" status="PASS">
+        <test-method signature="masukHalamanLupaPassword()[pri:4, instance:com.nexsoft.cicool.TestLoginUser@130c12b7]" started-at="2022-06-15T21:33:07 WIB" name="masukHalamanLupaPassword" finished-at="2022-06-15T21:33:08 WIB" duration-ms="1752" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- emailIsiPasswordKosong -->
+        </test-method> <!-- masukHalamanLupaPassword -->
       </class> <!-- com.nexsoft.cicool.TestLoginUser -->
     </test> <!-- User Authentication -->
   </suite> <!-- SuiteTest -->
